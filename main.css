@@ -1,0 +1,20 @@
+@charset "utf-8";
+.header {
+	background: url(images/border.png) repeat-x bottom,
+	url(images/background.png) repeat;
+}
+.ui-header .ui-title {
+	color:black;
+    font-size: 1.2em;
+    padding: 0.5em 0 1em;
+}
+
+.footer {
+background: url(images/border.png) repeat-x top,
+url(images/border.png) repeat-x bottom,
+url(images/background.png) repeat;
+color:black !important;
+text-align:center;
+font-size: 0.8em;
+}
+

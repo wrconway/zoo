@@ -1,0 +1,20 @@
+@charset "utf-8";
+#pageHeader {
+	background-color: #F2E397 !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	color: #4d2f48 !important;
+}
+body {
+	background-color:#43556b !important;
+}
+
+.navigation {
+	background-color:#903713 !important;
+}
+.navigation a {
+	color: #E6D68D !important;
+}
+/* site colors
+nav background #903713
+nav text #E6D68D
+*/

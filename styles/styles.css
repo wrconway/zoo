@@ -1,0 +1,44 @@
+@charset "utf-8";
+#zooMain * {
+	text-shadow:none;
+}
+.ui-body-c {
+	background:#E8E8D6;
+}
+
+.ui-bar-a {
+background:#903713;
+color:#E6D68D;
+}
+.ui-link:active {
+	color: black;
+}
+.ui-link:hover {
+	color:black;
+}
+.ui-btn-up-c {
+	background:#E8E8D6;
+}
+.ui-btn-hover-c a.ui-link-inherit {
+	color:#FFFFFF;
+	background:#A9B291;
+}
+
+.ui-bar-b {
+	color:#FFFFFF;
+	background:#A9B291;
+}
+.ui-footer {
+	text-align:center;
+	font-size:0.8em;
+}
+
+/*.ui-body-c {
+background-image:none;
+background: #43546A;
+}*/
+
+/*nav background color #903713;
+nav text color
+second nav background color #e8e8d6;
+second nav color #3A5245*/

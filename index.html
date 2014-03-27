@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>North Carolina Zoo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="themes/zoo-theme.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
+<link href="main.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+
+<body id="zooMain">
+<div data-role="page" id="page">
+  <div class="header" data-role="header" data-theme="a">
+    <h1>N.C. Zoo</h1>
+  </div>
+  <div data-role="content">
+    <ul data-inset="false" data-role="listview" data-divider-theme="a">
+      <li><a href="#animals-main" data-transition="slide"><img src="images/lion.png" alt="lion">Animals</a></li>
+      <li><a href="#events-main" data-transition="slide"><img src="images/events.png" width="166" height="166" alt="">Events</a></li>
+      <li><a href="#restaurants-main" data-transition="slide"><img src="images/wildernesscafe.png" width="175" height="114" alt="">Restaurants</a></li>
+    </ul>
+  </div>
+  <div class="footer" data-role="footer">
+    <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="animals-main" >
+  <div  class="header" data-role="header">
+    <h1>Animals</h1>
+  </div>
+  <div data-role="content">
+    <ul data-inset="false" data-role="listview" data-divider-theme="a">
+       <li><a href="#animals-africa-main" data-transition="slide"><img src="images/lion.png" width="150" height="149" alt="lions">Africa</a></li>
+      <li><a href="#animals-aviary-main" data-transition="slide"><img src="images/scarlet-ibis.png" width="150" height="149" alt="scarlet ibis">Aviary</a></li>
+      <li><a href="#animals-namerica-main" data-transition="slide"><img src="images/black-bear.png" width="150" height="112" alt="black bear">North America</a></li>
+    </ul>
+    <br>
+    <p>Zoos introduce people to animals.  Each year, approximately 700,000 visitors from all 100 counties in North Carolina and all 50 States of the US travel to Asheboro, North Carolina, to visit with our animals.  The Zoo is home to approximately 1,600 individual specimens representing more than 225 species.</p>
+  </div>
+  <div class="footer" data-role="footer">
+    <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+      </div>
+</div>
+<div data-role="page" id="events-main">
+  <div  class="header" data-role="header">
+    <h1>Events</h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="false">
+      <li><a href="#events-page1"><img src="images/BUGS_icon.png" width="100" height="96" alt="">March 29 &amp; 30<br>40<sup>th</sup> Anniversary</a></li>
+      <li><a href="#events-page2"><img src="images/events.png" width="166" height="166" alt="">April 12 &amp; 13<br>Earth Day Weekend</a></li>
+      <li><a href="#events-page3"><img src="images/egg.png" width="166" height="164" alt="">April 19<br>Eggstravaganza</a></li>
+    </ul>
+  </div>
+  <div class="footer" data-role="footer">
+        <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="restaurants-main">
+  <div  class="header" data-role="header">
+    <h1>Restaurants</h1>
+  </div>
+  <div data-role="content">
+    <p>The North Carolina Zoo has three restaurants.   Visa, Mastercard, American Express and cash are accepted.  ATMs are located in both Wilderness Cafe and Junction Springs Cafe. </p>
+    <div data-role="collapsible-set">
+      <div data-collapsed="true" data-role="collapsible">
+        <h2><img src="images/wildernesscafe.png" width="175" height="114" alt="Wilderness Cafe"><br>Wilderness Cafe</h2>
+        <p><strong>Location:</strong> North America Plaza</p>
+        <p><strong>Menu:</strong></p>
+        <ul>
+          <li>Made-to-Order Sub Sandwiches</li>
+          <li>Soft Serve Ice Cream</li>
+          <li>Coke Products</li>
+          <li>Fruit Cups</li>
+          <li>Veggie Cups</li>
+          <li>Bottled Beverages</li>
+          <li>Starbucks Coffee</li>
+        </ul>
+        <p><strong>Open</strong></p>
+        <ul>
+          <li>Apr - Oct: 9-5</li>
+          <li>Nov - Mar: 9-2 (Mon-Fri)</li>
+        </ul>
+      </div>
+      <div data-collapsed="true" data-role="collapsible">
+        <h2><img src="images/junctionspringscafe.png" width="175" height="114" alt="Junction Springs Cafe"><br>Junction Springs Cafe</h2>
+        
+        <p><strong>Location:</strong> Junction Plaza</p>
+        <p><strong>Menu:</strong></p>
+        <ul>
+          <li>Burgers</li>
+          <li>Hot Dogs</li>
+          <li>Chicken Tenders</li>
+          <li>Pizza</li>
+          <li>Deli Sandwiches &amp; Wraps</li>
+          <li>Salads</li>
+          <li>Vegetable &amp; Fruit Snacks</li>
+          <li>Desserts</li>
+          <li>Drinks</li>
+        </ul>
+        <p><strong>Open</strong></p>
+        <ul>
+          <li>Apr - Oct: 10-4</li>
+          <li>Nov - Mar: 10-3</li>
+        </ul>
+      </div>
+      <div data-collapsed="true" data-role="collapsible">
+        <h2><img src="images/crocodilecafe.png" width="175" height="114" alt="Crocodile Cafe"><br>Crocodile Cafe</h2>
+        
+        <p><strong>Location:</strong> Wachovia Akiba Market in Africa</p>
+        <p><strong>Menu:</strong></p>
+        <ul>
+          <li>Various Po’ Boy Sandwiches</li>
+          <li>Fries</li>
+          <li>Salads</li>
+          <li>Vegetable &amp; Fruit Snacks</li>
+          <li>Bottled Beverages</li>
+          <li>Slush Puppy Frozen Beverages</li>
+        </ul>
+        <p><strong>Open</strong></p>
+        <ul>
+          <li>Apr - Oct: 9-5</li>
+          <li>Nov - Mar: CLOSED</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer" data-role="footer">
+     <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="animals-africa-main">
+  <div  class="header" data-role="header">
+    <h1>Africa</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="collapsible-set">
+    <p>Your African safari will take you from dense forests to wide-open grasslands.</p>
+    <p>Plan on two to three hours to tour the Africa region.</p>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Watani Grasslands</h2>
+        <ul>
+          <li>elephants</li>
+          <li>rhinos</li>
+          <li>antelope</li>
+          <li>gazelles</li>
+          <li>waterbucks</li>
+          <li>ostriches</li>
+        </ul>
+      </div>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Bushlands</h2>
+        <ul>
+          <li>lions</li>
+          <li>red river hogs</li>
+        </ul>
+      </div>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Kitera Forest</h2>
+        <ul>
+          <li>chimpanzees</li>
+        </ul>
+      </div>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Forest Glade</h2>
+        <ul>
+          <li>western lowland gorillas</li>
+        </ul>
+      </div>
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>African Pavilion</h2>
+        <ul>
+          <li>baboons</li>
+          <li>tropical plants</li>
+        </ul>
+      </div>
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Forest Edge</h2>
+        <ul>
+          <li>zebras</li>
+          <li>ostriches</li>
+          <li>giraffes</li>
+        </ul>
+      </div>
+  </div>
+  </div>
+  <div class="footer" data-role="footer">
+       <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="animals-aviary-main">
+  <div  class="header" data-role="header">
+    <h1>Aviary</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="collapsible-set">
+    <p>The R.J. Reynolds Forest Aviary displays more than 3,000 gorgeous tropical plants and dozens of exotic birds, as well as three dozen tropical frogs</p>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Birds</h2>
+        <ul>
+          <li>Victoria Crowned Pigeon</li>
+          <li>Scarlet Ibis</li>
+          <li>Rosella Parrot</li>
+          <li>African Pygmy Goose</li>
+        </ul>
+      </div>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Plants</h2>
+        <ul>
+          <li>Orchids</li>
+          <li>Pineapple</li>
+          <li>Brazillian Grape Tree</li>
+          <li>Powderpuff</li>
+          <li>Shrimp Plant</li>
+        </ul>
+      </div>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Tropical Frogs</h2>
+        <ul>
+          <li>Blue Poison Dart Frog</li>
+          <li>Panama Golden Frog</li>
+          <li>Dyeing Poison Dart Frog</li>
+          <li>Bumble Bee Poison Dart Frog</li>
+        </ul>
+      </div>
+  </div>
+  </div>
+  <div class="footer" data-role="footer">
+        <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="animals-namerica-main">
+  <div  class="header" data-role="header">
+    <h1>North America</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="collapsible-set">
+    <p>From the hot and dry Sonoran Desert to the icy Rocky Coast, the North America region showcases the major habitats found in this geographic area.</p>
+    <p>Plan on two to three hours to tour the North America region.</p>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Cypress Swamp</h2>
+        <ul>
+          <li>cougars</li>
+          <li>alligators</li>
+          <li>ducks</li>
+          <li>reptiles</li>
+        </ul>
+      </div>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Marsh</h2>
+        <ul>
+          <li>native insects</li>
+          <li>beavers</li>
+          <li>muskrats</li>
+          <li>snakes</li>
+        </ul>
+      </div>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Rocky Coast</h2>
+        <ul>
+          <li>arctic fox</li>
+          <li>puffin</li>
+          <li>auklet</li>
+          <li>harbor seal</li>
+        </ul>
+      </div>
+
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Streamside</h2>
+        <ul>
+          <li>bobcats</li>
+          <li>otters</li>
+          <li>fish</li>
+          <li>snakes</li>
+          <li>frogs</li>
+          <li>owls</li>
+        </ul>
+      </div>
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Northwoods</h2>
+        <ul>
+          <li>grizzly bears</li>
+          <li>black bears</li>
+          <li>red wolves</li>
+        </ul>
+      </div>
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Prairie</h2>
+        <ul>
+          <li>elk</li>
+          <li>bison</li>
+        </ul>
+      </div>
+      <div data-collapsed="true" data-role="collapsible">
+        <h2>Sonora Desert</h2>
+        <ul>
+          <li>ocelot</li>
+          <li>roadrunner</li>
+          <li>tarantulas</li>
+          <li>bats</li>
+        </ul>
+      </div>
+
+  </div>
+  </div>
+    <div class="footer" data-role="footer">
+       <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="events-page1">
+  <div  class="header" data-role="header">
+    <h1>40<sup>th</sup> Anniversary</h1>
+  </div>
+  <div data-role="content">
+    <h2>March 29 &amp; 30</h2>
+    <p>Come celebrate 40 WILD years with the grand opening of "BUGS: An Epic Adventure" and the reopening of "kidZone"! Enjoy live music, dancing, puppet parades, educational activities and much more. Don't miss this exciting weekend packed full of family fun throughout the park!</p>
+  </div>
+  <div class="footer" data-role="footer">
+    <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="events-page2">
+  <div  class="header" data-role="header">
+    <h1>Earth Day Weekend</h1>
+  </div>
+  <div data-role="content">
+    <h2>April 12 &amp; 13</h2>
+    <p>The zoo is having a "Party for the Planet"! Dance to African drums and explore new ways to help take care of the earth.</p>
+  </div>
+  <div class="footer" data-role="footer">
+       <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="events-page3">
+  <div  class="header" data-role="header">
+    <h1>Eggstravaganza</h1>
+  </div>
+  <div data-role="content">
+    <h2>April 19</h2>
+    <p>Celebrate the new spring season. See zoo animals hunt for treats inside decorative eggs made specially by our zoo volunteers.</p>
+  </div>
+  <div class="footer" data-role="footer">
+    <p>4401 Zoo Parkway &bull;  Asheboro, NC 27205</p>
+    <p>800-488-0444</p> 
+    <p>&copy; 2014 William Conway</p>
+  </div>
+</div>
+<div data-role="page" id="animals-africa-page1">
+  <div  class="header" data-role="header">
+    <h1>Africa Page 1</h1>
+  </div>
+  <div data-role="content">africa page 1</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+<div data-role="page" id="animals-africa-page2">
+  <div  class="header" data-role="header">
+    <h1>africa page 2</h1>
+  </div>
+  <div data-role="content">africa page 2</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+<div data-role="page" id="animals-africa-page3">
+  <div  class="header" data-role="header">
+    <h1>africa page 3</h1>
+  </div>
+  <div data-role="content">africa page 3</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+<div data-role="page" id="animals-aviary-page1">
+  <div  class="header" data-role="header">
+    <h1>Aviary Page 1</h1>
+  </div>
+  <div data-role="content">aviary page 1</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+<div data-role="page" id="animals-aviary-page2">
+  <div  class="header" data-role="header">
+    <h1>aviary page 2</h1>
+  </div>
+  <div data-role="content">aviary page 2</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+<div data-role="page" id="animals-aviary-page3">
+  <div  class="header" data-role="header">
+    <h1>aviary page 3</h1>
+  </div>
+  <div data-role="content">aviary page 3</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+<div data-role="page" id="animals-namerica-page1">
+  <div  class="header" data-role="header">
+    <h1>North America Page 1</h1>
+  </div>
+  <div data-role="content">North America page 1</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+<div data-role="page" id="animals-namerica-page2">
+  <div  class="header" data-role="header">
+    <h1>North America page 2</h1>
+  </div>
+  <div data-role="content">North America page 2</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+<div data-role="page" id="animals-namerica-page3">
+  <div  class="header" data-role="header">
+    <h1>North America page 3</h1>
+  </div>
+  <div data-role="content">North America page 3</div>
+  <div class="footer" data-role="footer">
+    <h4>&copy; 2014 William Conway</h4>
+  </div>
+</div>
+</body>
+</html>
